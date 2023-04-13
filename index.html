@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Zen</title>
+  <style>
+    :root {
+      --bg-color: #2b2a33;
+      --f-color: #969696;
+    }
+
+    *,
+    *::before,
+    *::after {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      display: flex;
+      padding: 1em;
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: var(--bg-color);
+      justify-content: center;
+    }
+
+    .container {
+      color: var(--f-color);
+      margin-top: 3rem;
+    }
+
+    h1 {
+      margin-top: 3rem;
+      color: #fbfbfe;
+      text-align: center;
+    }
+
+    h3 {
+      margin-bottom: 10px;
+      color: #9e9e9e;
+      text-align: center;
+    }
+
+    .url-list {
+      display: flex;
+      margin-top: 12rem;
+      justify-content: center;
+    }
+
+    .list {
+      margin: 0 15px;
+      padding: 2.6rem;
+      border-radius: 9px;
+      box-shadow: 8px 10px 38px -7px rgba(26, 24, 26, 1);
+    }
+
+    a {
+      text-decoration: none;
+      color: #969696;
+    }
+
+    a:hover {
+      color: #fff;
+    }
+
+    li {
+      margin-top: 5px;
+      list-style-type: none;
+    }
+    
+    @media screen and (max-width: 480px) {
+  body {
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+  }
+  
+  .container {
+    margin-top: 2rem;
+  }
+  
+  .url-list {
+    margin-top: 2rem;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .list {
+    margin: 1rem 0;
+    padding: 1.2rem;
+    width: 80%;
+  }
+  
+  h1 {
+    margin-top: 2rem;
+    font-size: 1.8rem;
+    text-align: center;
+  }
+  
+  h3 {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  
+  li {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+  }
+}
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Have a nice day!</h1>
+    <h3>"Tugas yang baik adalah tugas yang selesai"</h3>
+    <div class="url-list">
+      <div class="list">
+        <ul>
+          <li><a href="https://mail.google.com/mail/u/0/" target="_blank">Mail</a></li>
+          <li><a href="https://calendar.google.com/calendar/u/0/r" target="_blank">Calendar</a></li>
+          <li><a href="https://youtube.com" target="_blank">Youtube</a></li>
+          
+        </ul>
+      </div>
+      <div class="list">
+        <ul>
+          <li><a href="https://github.com/" target="_blank">Github</a></li>
+          <li><a href="https://stackoverflow.com/" target="_blank">Stack Overflow</a></li>
+          <li><a href="https://chat.openai.com/chat" target="_blank">ChatGPT</a></li>
+        </ul>
+      </div>
+      <div class="list">
+        <ul>
+          <li><a href="https://www.reddit.com/" target="_blank">Reddit</a></li>
+          <li><a href="https://discord.com/channels/@me" target="_blank">Discord</a></li>
+          <li><a href="https://www.linkedin.com/feed/" target="_blank">LinkedIn</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
